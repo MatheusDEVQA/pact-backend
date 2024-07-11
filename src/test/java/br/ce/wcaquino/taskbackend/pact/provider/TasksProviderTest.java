@@ -11,14 +11,14 @@ import au.com.dius.pact.provider.junitsupport.loader.PactUrl;
 
 @RunWith(PactRunner.class)
 @Provider("Tasks")
-@PactUrl(urls = {"file:///D:\\repositorios\\pact-backend\\target\\BasicConsumer-Tasks.json"})
+@PactUrl(urls = {"file:///D:\\repositorios\\pact-backend\\src\\test\\resources\\BasicConsumer-Tasks.json"})
 public class TasksProviderTest {
 
     @TestTarget
     public final Target target = new HttpTarget("localhost", 8000);
 
     @State("There is a task with id = 1")
-    public  void saveTaskOne(){
+    public void saveTaskOne(){
 
 
     }
