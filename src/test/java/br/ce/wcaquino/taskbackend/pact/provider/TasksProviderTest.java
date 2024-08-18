@@ -17,11 +17,6 @@ public class TasksProviderTest {
     @TestTarget
     public final Target target = new HttpTarget("localhost", 8000);
 
-    @State("There is a task with id = 1")
-    public void saveTaskOne(){
-
-
-    }
 
 
 }
